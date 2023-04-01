@@ -67,7 +67,3 @@ jobs:
       - name: Deploy
         run: |
           npm run deploy
-
-	- name: delete branch
-        run: |
-          git push origin :githubcicd
